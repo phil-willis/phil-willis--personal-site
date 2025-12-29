@@ -1,11 +1,11 @@
-import './App.css'
-import { LedCalculatorName } from './components/LedCalculatorName'
+import { SpotlightHero } from './components/SpotlightHero'
 
 function App() {
   return (
-    <main className="app">
-      <LedCalculatorName className="led" text="Phil Willis" />
-    </main>
+    <>
+      {/*  */}
+      <SpotlightHero />
+    </>
   )
 }
 
